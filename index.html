@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/171aa3b28f.js" crossorigin="anonymous"></script>
     <script defer src="script.js"></script>
     <title>Digipet</title>
 </head>
@@ -24,22 +25,22 @@
 
         <main>
             <!-- Digipet image -->
-            <section>
+            <section class="digipet">
                 <!-- add image of digipet console -->
                 <img src="images/digipet.png" alt="digipet">
+                <div id="screen" class="digipet-screen"></div>
             </section>
 
             <!-- Controls for Digipet -->
-            <section>
-                <div class="panel">
-                    <button>
-                        <!-- add image of microphone -->
-                        <img src="images/microphone.png" alt="microphone">
+            <section id="panels-data" class="panels">
+                <div class="panel panel-microphone">
+                    <button id="microphone">
+                        <i class="fa-solid fa-microphone"></i>
                     </button>
                     <h2>Use Microphone</h2>
                 </div>
 
-                <div class="panel">
+                <div class="panel panel-commands">
                     <h2>Say Command</h2>
                     <h3>List of Commands</h3>
 

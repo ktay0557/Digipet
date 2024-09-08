@@ -61,3 +61,38 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
+
+.digipet {
+    position: relative;
+    width: 230px;
+    margin: 0 auto 24px auto;
+}
+
+.digipet-screen {
+    position: absolute;
+    top: 118px;
+    left: 56px;
+    width: 120px;
+    height: 120px;
+    /* add image of actual digipet */
+    background-image: url('.images/static.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button {
+    border: none;
+    background-color: #376C0F;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px;
+}
+
+.panels {
+    position: relative;
+}
+
+.panel-commands {
+    
+}
