@@ -39,7 +39,7 @@ h3 {
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 12px;
-    color: #376C0F;
+    color: #47045c;
 }
 
 .panel {
@@ -82,8 +82,9 @@ h3 {
 }
 
 button {
+    cursor: pointer;
     border: none;
-    background-color: #376C0F;
+    background-color: #b64ff1;
     border-radius: 8px;
     padding: 12px 16px;
     margin: 12px;
@@ -94,5 +95,13 @@ button {
 }
 
 .panel-commands {
-    
+    display: none;
+}
+
+.listening .panel-commands {
+    display: block;
+}
+
+.listening .panel-microphone {
+    display: none;
 }
