@@ -82,12 +82,16 @@ h3 {
 }
 
 .digipet-screen_eat {
-
+    background-image: url('./images/digipet-actions/eat.gif');
 }
 
-.digipet-screen_dance {}
+.digipet-screen_dance {
+    background-image: url('./images/digipet-actions/dance.gif');
+}
 
-.digipet-screen_sleep {}
+.digipet-screen_sleep {
+    background-image: url('./images/digipet-actions/sleep.gif');
+}
 
 button {
     cursor: pointer;
@@ -112,4 +116,8 @@ button {
 
 .listening .panel-microphone {
     display: none;
+}
+
+#transcript {
+    font-weight: bold;
 }

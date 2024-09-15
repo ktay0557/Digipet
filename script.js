@@ -42,7 +42,7 @@ const onResult = (event) => {
         screen.classList.remove(`digipet-screen_${action}`);
         transcript.innerText = '';
     }
-    setTimeout(removeAnimationClass, 3000);
+    setTimeout(removeAnimationClass, 5000);
 }
 
 const onError = (event) => {
