@@ -75,11 +75,19 @@ h3 {
     width: 120px;
     height: 120px;
     /* add image of actual digipet */
-    background-image: url('.images/static.png');
+    background-image: url('./images/static.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.digipet-screen_eat {
+
+}
+
+.digipet-screen_dance {}
+
+.digipet-screen_sleep {}
 
 button {
     cursor: pointer;
